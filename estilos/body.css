@@ -1,0 +1,327 @@
+.container{
+    background-image: url(/imagem/bg.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 688px;
+
+
+}
+
+
+
+
+.container-text{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.container-text h1{
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 10rem;
+    margin-bottom: 50px;
+}
+
+.container-text p{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.banner-imagem{
+    display:flex;
+}
+
+.banner-imagem img{
+    width: 160px;
+    height: 160px;
+    border: 5px solid green;
+    border-radius: 50%;
+
+}
+
+.div-img1{
+    padding-right: 30px;
+}
+
+.div-img2{
+    padding-right: 30px;
+}
+
+
+.segundaparte{
+    display: flex;
+}
+
+.textoparte2{
+    display: flex;
+    flex-direction: column;
+    padding-left:;
+}
+
+.backgroundcima{
+    background-color: #006341;
+    width: 16.2rem;
+    height: 2rem;
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+}
+
+.containerparte1{
+    width: 74rem;
+    height: 54.5rem;
+    padding-left: 12.52rem;
+    padding-right: 12.52rem;
+}
+
+.parte1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.parte1container{
+    padding-left: 12.5rem;
+}
+
+.bar{
+    background-color: #006341;
+    width: 16.2rem;
+    height: 2.2rem;
+    margin-top: 5.5rem;
+    margin-right:30.2rem;
+}
+
+.parte1container h1{
+    font-size: 4rem;
+    margin-top: 1.1rem;
+}
+
+.parte1subtext{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.parte1text{
+    font-size: 2rem ;
+    margin-top: 3rem;
+}
+
+.button{
+    display: inline-block;
+    border: 2px solid #454545;
+    font-size: 1.9rem;
+    width: 155px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+
+}
+
+
+.button:hover{
+    color: white;
+    background-color: #454545;
+}
+
+.parte1imagemgaga{
+    background-image: url(/imagem/f2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 34.7rem;
+    width: 74.04rem;
+}
+
+.parte1ladygaga{
+    background-image: url(/imagem/f1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.segundaparte{
+    display: flex;
+}
+
+.textoparte2{
+    display: flex;
+    flex-direction: column;
+    padding-left:;
+}
+
+.backgroundcima{
+    background-color: #006341;
+    width: 16.2rem;
+    height: 2rem;
+    margin-top: 5.5rem;
+    margin-left: 2rem;
+}
+
+.containerparte1{
+    width: 74rem;
+    height: 54.5rem;
+    padding-left: 12.52rem;
+    padding-right: 12.52rem;
+}
+
+/************************* parte 2  *******************************************/
+.parte2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.parte2container{
+    padding-left: 12.5rem;
+}
+
+.bar{
+    background-color: #006341;
+    width: 16.2rem;
+    height: 2.2rem;
+    margin-top: 5.5rem;
+    margin-right:30.2rem;
+}
+
+.parte2container h1{
+    font-size: 3.5rem;
+    margin-top: 1.1rem;
+}
+
+
+.parte2subtext{
+    font-size: 1.75rem ;
+    margin-top: 3rem;
+}
+
+.button{
+    display: inline-block;
+    border: 2px solid #454545;
+    font-size: 1.9rem;
+    width: 155px;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+
+}
+
+
+.button:hover{
+    color: white;
+    background-color: #454545;
+}
+
+.parte2imagemgaga{
+    background-image: url(/imagem/f4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 34.7rem;
+    width: 74.04rem;
+}
+
+.parte2ladygaga{
+    background-image: url(/imagem/f3.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.parte3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.parte3texto{
+    padding-top: 250px;
+    padding-left: 200px;
+    background-image: url(/imagem/bg2.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.parte3texto h1{
+    font-size: 4rem;
+}
+
+.subtitle3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.parte3imagem{
+    background-image: url(/imagem/f5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 77.7rem;
+}
+
+.parte4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+}
+
+.quartaparte{
+    background-color: #e8e9ee;
+
+}
+
+.quartapartecontainer{
+    margin-left: 14rem;
+    margin-top: 11.6rem;
+    margin-bottom: 11.6rem;
+}
+
+.quartaimagem{
+    background-image: url(/imagem/bg3.jpg);
+    background-position: left;
+    /* grid-column:2/3;
+    grid-row: 1/3; */
+}
+
+.quartaparte h2{
+    font-size: 4rem;
+}
+
+.quartapartetext{
+    font-size: 1.7rem;
+    margin-top:2.7rem;
+    margin-right:2.09rem;
+}
+
+.parte5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9ee;
+}
+
+.parte5imagem{
+    background-image: url(/imagem/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 114.4rem;
+    height: 50rem;
+}
+
+.parteultima{    
+    background-color:#333333 ;
+    width: 100;
+    height: 23.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerbaixo{
+    font-size: 1.5rem;
+    color: #e8e9ee;
+}
